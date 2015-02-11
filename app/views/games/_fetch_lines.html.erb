@@ -1,0 +1,29 @@
+ <span class="status"><%= game.status %></span>
+ <span class="start_date"><%= game.start_date %></span></p>
+ <p><span class="away_rot"><%= game.rotation[0] %></span>
+ <span class="start_time"><%= game.time[0] %></span>
+ <span><b class="away_team"><%= game.teams[0] %></b></span>
+ <span class="away_spread_consensus"><%= game.spread_consensus[0] %></span>
+ <span class="away_spread_open_points"><%= game.spread_opener[0] %></span>
+ <span class="away_spread_open_line"><%= game.spread_opener[1] %></span>
+ <span class="away_spread_current_points"><%= game.spread['19'][0] unless game.spread['19'].nil?   %></span>
+ <span class="away_spread_current_line"><%= game.spread['19'][1] unless game.spread['19'].nil?   %></span>
+ <span class="away_total_consensus"><%= game.total_consensus[0] %></span>
+ <span class="away_total_open_points"><%= game.total_opener[0] %></span>
+ <span class="away_total_open_line"><%= game.total_opener[1] %></span>
+ <span class="away_total_current_points"><%= game.totals['19'][0] unless game.spread['19'].nil?   %></span>
+ <span class="away_total_current_line"><%= game.totals['19'][1] unless game.spread['19'].nil?   %></span></p>
+ <p><span class="home_rot"><%= game.rotation[1] %></span>
+ <span class="tv"><%= game.tv[0] %></span>
+ <span><b class="home_team"><%= game.teams[1] %></b></span>
+ <span class="home_spread_consensus"><%= game.spread_consensus[1] %></span>
+ <span class="home_spread_open_points"><%= game.spread_opener[2] %></span>
+ <span class="home_spread_open_line"><%= game.spread_opener[3] %></span>
+ <span class="home_spread_current_points"><%= game.spread['19'][2] unless game.spread['19'].nil?   %></span>
+ <span class="home_spread_current_line"><%= game.spread['19'][3] unless game.spread['19'].nil?   %></span>
+ <span class="home_total_consensus"><%= game.total_consensus[1] %></span>
+ <span class="home_total_open_points"><%= game.total_opener[2] %></span>
+ <span class="home_total_open_line"><%= game.total_opener[3] %></span>
+ <span class="home_total_current_points"><%= game.totals['19'][2] unless game.spread['19'].nil?   %></span>
+ <span class="home_total_current_line"><%= game.totals['19'][3] unless game.spread['19'].nil?   %></span></p>
+ <br>
